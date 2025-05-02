@@ -11,7 +11,7 @@ This repository contains my **structured notes** for software engineering interv
 | 001   | [Advanced C++](./001_Advanced-C++) | Templates, Smart Pointers, STL Internals    |
 | 002   | [OOPS](./002_OOPS)                 | Inheritance, Polymorphism, Abstraction, etc |
 | 003   | [Design Patterns](./003_Design_Patterns) | GoF Patterns: Singleton, Factory, etc.     |
-| 004   | [Searching and Sorting](./004_Searching%20and%20Sorting) | Binary Search, QuickSort, MergeSort, etc. |
+| 004   | [Searching and Sorting](./004_Searching_and_Sorting) | Binary Search, QuickSort, MergeSort, etc. |
 | 005   | [Multithreading & Concurrency](./005_Multithreading-Concurrency) | Threads, Locks, Deadlock, etc              |
 | 006   | [C++ STL](./006_CPP_STL)           | Vectors, Maps, Sets, Iterators              |
 | 007   | [DSA Patterns](./007_ALL-DSA-PATTERNS) | Sliding Window, Two Pointers, Backtracking |
