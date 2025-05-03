@@ -25,6 +25,8 @@ This repository contains my **structured notes** for software engineering interv
 | 015   | [Sliding Window](./SOFTWARE-DEVELOPER-INTERVIEW-PREP/015_Sliding-Window) | Fixed/Variable window, Maximums            |
 | 016   | [Socket Programming](./SOFTWARE-DEVELOPER-INTERVIEW-PREP/016_Socket-Programming) | TCP/UDP, Client-Server, C++ Sockets      |
 | 017   | [Low-Level Design (LLD)](./SOFTWARE-DEVELOPER-INTERVIEW-PREP/017_Low-Level-Design) | LLD patterns, Class Diagrams, UML         |
+| 018   | [Tools](./SOFTWARE-DEVELOPER-INTERVIEW-PREP/018_Tools) | Docker,Git,Redis,Kafka,MessageQ,Linux,Pub-Sub|
+| 019   | [Computer Fundamentals](./SOFTWARE-DEVELOPER-INTERVIEW-PREP/019_Computer_Fundamentals) | Networking,Operating System,DBMS       |
 
 ---
 
