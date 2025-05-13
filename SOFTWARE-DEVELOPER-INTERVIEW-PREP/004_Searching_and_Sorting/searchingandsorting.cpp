@@ -67,12 +67,13 @@ void merge(int a[], int s, int m, int e) {
 
 // Merge Sort
 void mergeSort(int a[], int s, int e) {
-    if (s < e) {
+    if (s >=e ) return;
+     
         int m = (s + e) / 2;
         mergeSort(a, s, m);
         mergeSort(a, m + 1, e);
         merge(a, s, m, e);
-    }
+    
 }
 
 // Linear Search
@@ -112,6 +113,33 @@ void cycleSort(int a[], int size) {
             i++;
     }
 }
+
+
+int partition(int arr[],int s,int e)
+{
+    int pivot=arr[e];
+    int cnt=s-1;
+    for(int i=s;i<e;i++)
+    {
+        if(arr[i]<pivot)
+        {
+            cnt++;
+            swap(arr[i],arr[cnt]);
+            //cnt++;
+            
+        }
+    }
+    swap(arr[e],arr[cnt+1]);
+    return cnt+1;
+}
+void quicksort(int arr[],int s,int e)
+{
+    if(s>=e) return; // if subarray has one element it should return
+    int p=partition(arr,s,e);
+    quicksort(arr,s,p-1);
+    quicksort(arr,p+1,e);
+}
+
 
 // Main function
 int main() {
