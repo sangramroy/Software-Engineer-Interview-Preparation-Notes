@@ -1,0 +1,125 @@
+If a company is hiring a **C++ Developer for a Networking Project** with **3+ years of experience**, the interview will typically focus on both:
+
+* **C++ programming (with real-world coding)**
+* **Networking concepts & system programming (Linux, sockets, etc.)**
+
+---
+
+## 🔹🔹 Interview Structure Breakdown
+
+### ✅ 1. **C++ Core (Practical + Deep Understanding)**
+
+They'll check:
+
+* Classes, inheritance, virtual functions
+* Pointers, references, memory management
+* Smart pointers (`unique_ptr`, `shared_ptr`)
+* STL: vectors, maps, sets, algorithms
+* RAII, constructors/destructors
+* Copy constructor, assignment operator, move semantics (Rule of 3/5)
+* Lambda expressions, function pointers
+* Multi-threading basics: `std::thread`, mutex, condition variable
+
+📌 **Sample Questions:**
+
+* Implement a class with dynamic memory (test Rule of 3/5)
+* Explain difference between shallow and deep copy
+* When would you use `shared_ptr` over `unique_ptr`?
+* Write a function to reverse a linked list
+* Thread-safe logging system
+
+---
+
+### ✅ 2. **Networking & Socket Programming**
+
+They’ll expect you to understand and code:
+
+#### Key Areas:
+
+* TCP vs UDP
+* Sockets API (`socket()`, `bind()`, `listen()`, `accept()`, `connect()`, `send()`, `recv()`)
+* Server/client architecture
+* Byte order conversions: `htons`, `ntohs`
+* IPv4/IPv6 differences
+* Multi-client handling: `fork()`, `select()`, `poll()`, `epoll`
+* Error handling and timeouts
+* Raw sockets (maybe)
+
+📌 **Sample Questions:**
+
+* Write a TCP echo server and client in C++
+* What does `bind()` do? What happens if you skip it?
+* What is `select()`? How would you implement a multi-client server?
+* Difference between blocking and non-blocking sockets?
+* How do you detect client disconnection?
+* What happens in `accept()` when no client is waiting?
+
+---
+
+### ✅ 3. **Linux System Programming & IPC**
+
+Often part of networking work.
+
+#### Topics:
+
+* File descriptors
+* `fork()`, `exec()`, `wait()`
+* Pipes, FIFOs
+* Shared memory (`shmget`, `shmat`, etc.)
+* Message queues (`msgsnd`, `msgrcv`)
+* Semaphores & synchronization
+* Signals
+
+📌 **Sample Questions:**
+
+* Difference between pipe and FIFO
+* How to create and use shared memory?
+* How to synchronize processes using semaphores?
+* Implement inter-process communication using a pipe
+* Write a C++ program that spawns a child process and uses pipe to send data
+
+---
+
+### ✅ 4. **Real-Time Problem Solving & Design**
+
+You might be given a mini design problem, e.g.:
+
+* Design a server that can handle 1000 concurrent clients
+* How would you structure a packet parser for incoming binary data?
+* Design a logging system shared between multiple threads or processes
+
+---
+
+### ✅ 5. **Debugging / Tools / Build**
+
+* How do you debug a segmentation fault?
+* How do you find memory leaks? (e.g., `valgrind`)
+* Use of `strace`, `gdb`
+* Experience with `CMake` or `Makefile`
+
+---
+
+## 🔹 Bonus: Behavioral + Project Discussion
+
+You may be asked:
+
+* Explain a networking issue you solved.
+* What part of the networking stack have you worked on?
+* How do you ensure thread safety in your code?
+
+---
+
+## 🔚 Summary Table
+
+| Category                | What to Expect                                   |
+| ----------------------- | ------------------------------------------------ |
+| **C++ Concepts**        | Classes, STL, memory, threads                    |
+| **Socket Programming**  | TCP/UDP, client/server, select, APIs             |
+| **Linux Internals**     | Pipes, shared memory, semaphores                 |
+| **Code Implementation** | Write client/server, IPC code, thread-safe logic |
+| **Tools**               | gdb, valgrind, strace, build systems             |
+| **Design Skills**       | Multi-client server, packet handling             |
+
+---
+
+Would you like a **mock interview question set** tailored for this role with answers in C++?
